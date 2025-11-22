@@ -61,6 +61,11 @@ Puede acceder al sitio completamente desplegado aquí: **https://miwebandersones
 3. Configurar `conexion/conexion.php`: `$host = "localhost";    $user = "root";    $pass = "";    $db   = "mi_web"`.
 4. Abrir en el navegador: **http://localhost/mi_web/**
 
+### Hosting 
+
+1. Abrir en el navegador: **https://cpanel.infinityfree.com/**.
+2. Ingresar credenciales: `host = "sql311.infinityfree.com";    username = "if0_40479966";    password = "XeEqnFUB2R0";    $db   = "if0_40479966_mi_web"`.
+
 ## Autor
 
 Desarrollado por **Anderson Escobar** como proyecto personal y de práctica.
