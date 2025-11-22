@@ -4,8 +4,6 @@ Proyecto web desarrollado en HTML, CSS y PHP, que incluye una página
 principal, un formulario de contacto y conexión a base de
 datos.
 
-------------------------------------------------------------------------
-
 ## Descripción del Proyecto
 
 Este proyecto es un sitio web personal que muestra información personal
@@ -19,8 +17,6 @@ del autor e incluye:
 -   Archivos multimedia
 -   Script SQL para la base de datos
 
-------------------------------------------------------------------------
-
 ## Tecnologías Utilizadas
 
 -   HTML5
@@ -28,8 +24,6 @@ del autor e incluye:
 -   PHP 8
 -   MySQL
 -   Servidor web: InfinityFree / Wuaze Hosting
-
-------------------------------------------------------------------------
 
 ## Estructura del Proyecto
 
@@ -46,15 +40,11 @@ del autor e incluye:
     │     └── foto.jpeg
     └── mi_web.sql
 
-------------------------------------------------------------------------
-
 ## Instrucciones de Uso
 
 ### Visitar el sitio web
 
 Puede acceder al sitio completamente desplegado aquí: **https://miwebandersones.wuaze.com/**
-
-------------------------------------------------------------------------
 
 ### Ejecutar en local 
 
@@ -70,8 +60,6 @@ Puede acceder al sitio completamente desplegado aquí: **https://miwebandersones
 2. Importar el archivo `mi_web.sql` en phpMyAdmin. 
 3. Configurar `conexion/conexion.php`: `$host = "localhost";    $user = "root";    $pass = "";    $db   = "mi_web"`.
 4. Abrir en el navegador: **http://localhost/mi_web/**
-
-------------------------------------------------------------------------
 
 ## Autor
 
