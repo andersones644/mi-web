@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contacto — Mi Web</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="../index.html">Anderson Escobar</a>
+            <nav class="nav">
+                <a href="../index.html" class="nav-link cta">Inicio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="contact-card">
+            <div class="contact-info">
+                <h1>Contáctame</h1>
+                <p class="muted">Completa el formulario y te responderé lo antes posible.</p>
+            </div>
+
+            <form class="contact-form" action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" required minlength="2" placeholder="Tu nombre">
+
+                <label for="correo">Correo</label>
+                <input id="correo" name="correo" type="email" required placeholder="tu@correo.com">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required minlength="5"
+                    placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+
+            <div>
+                <i class="fa-solid fa-phone"></i> Teléfono<br>
+                <span class="muted">+593 98 967 1616</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i> Email<br>
+                <span class="muted">ajescobar4@utpl.edu.ec</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-share-nodes"></i> Sígueme<br>
+                <span class="muted">
+
+                    <a href="https://www.instagram.com/ander.josuee?igsh=ZXBxZHhkb3kwa3Aw" target="_blank">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+
+                    •
+
+                    <a href="https://github.com/andersones644" target="_blank">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+
+                </span>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
