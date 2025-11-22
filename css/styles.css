@@ -1,14 +1,9 @@
 :root {
   --color1: #122941;
-  /* Azul muy oscuro */
   --color2: #124864;
-  /* Azul oscuro */
   --color3: #15768f;
-  /* Azul medio */
   --color4: #1dacbd;
-  /* Azul claro */
   --color5: #e8f4f8;
-  /* Fondo suave */
   --text-color: #ffffff;
   --text-dark: #222;
   --radius: 10px;
