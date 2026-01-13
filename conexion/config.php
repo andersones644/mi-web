@@ -1,8 +1,8 @@
 <?php
-$host = "sql311.infinityfree.com";
-$user = "if0_40479966";
-$pass = "XeEqnFUB2R0";
-$db   = "if0_40479966_mi_web";
+$host = "127.0.0.1:3307";
+$user = "root";
+$pass = "";
+$db   = "mi_web";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {

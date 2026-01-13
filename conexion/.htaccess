@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Acceso restringido"
+AuthUserFile "C:/xampp/htdocs/miweb/.htpasswd"
+Require valid-user

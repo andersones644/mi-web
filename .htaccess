@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteBase /miweb/
+
+# Redirigir HTTP a HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://localhost/miweb/$1 [R=301,L]
+
+# URLs amigables
+RewriteRule ^contacto/?$ contacto/formulario_contacto.html [L,NC]
+RewriteRule ^contacto/enviar/?$ contacto/procesar_formulario.php [L,NC]
+
+# Páginas de error personalizadas
+ErrorDocument 401 /miweb/401.html
+ErrorDocument 403 /miweb/403.html
+ErrorDocument 404 /miweb/404.html
+
+# Desactivar listado de directorios
+Options -Indexes
+
+# Proteger archivos sensibles
+<FilesMatch "^(\.ht|mi_web\.sql|\.env)$">
+    Require all denied
+</FilesMatch>

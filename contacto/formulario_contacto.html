@@ -14,17 +14,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/styles.css">
-
-    <!-- reCAPTCHA -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
     <header class="site-header">
         <div class="container header-inner">
-            <a class="brand" href="../index.html">Anderson Escobar</a>
+            <a class="brand" href="/miweb/">Anderson Escobar</a>
             <nav class="nav">
-                <a href="../index.html" class="nav-link cta">Inicio</a>
+                <a href="/miweb/" class="nav-link cta">Inicio</a>
             </nav>
         </div>
     </header>
@@ -36,7 +33,7 @@
                 <p class="muted">Completa el formulario y te responderé lo antes posible.</p>
             </div>
 
-            <form class="contact-form" action="procesar_formulario.php" method="POST">
+            <form class="contact-form" action="/miweb/contacto/enviar" method="POST">
                 <label for="nombre">Nombre</label>
                 <input id="nombre" name="nombre" type="text" required minlength="2" placeholder="Tu nombre">
 
